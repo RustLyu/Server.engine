@@ -1,0 +1,13 @@
+D:/dev/Server.engine/build/CMakeFiles/ALL_BUILD.dir
+D:/dev/Server.engine/build/CMakeFiles/ZERO_CHECK.dir
+D:/dev/Server.engine/build/Include/CMakeFiles/Include.dir
+D:/dev/Server.engine/build/LibSrvcore/CMakeFiles/LibSrvcore.dir
+D:/dev/Server.engine/build/LibNetSocket/CMakeFiles/LIBSocket.dir
+D:/dev/Server.engine/build/LibNetMysql/CMakeFiles/LIBMysql.dir
+D:/dev/Server.engine/build/LibProtocol/CMakeFiles/LibProtocol.dir
+D:/dev/Server.engine/build/WorldServer/CMakeFiles/WorldServer.dir
+D:/dev/Server.engine/build/DBServer/CMakeFiles/DBServer.dir
+D:/dev/Server.engine/build/GameServer/CMakeFiles/GameServer.dir
+D:/dev/Server.engine/build/LoginServer/CMakeFiles/LoginServer.dir
+D:/dev/Server.engine/build/GatewayServer/CMakeFiles/GatewayServer.dir
+D:/dev/Server.engine/build/Client/CMakeFiles/Client.dir
