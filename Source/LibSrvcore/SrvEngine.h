@@ -4296,11 +4296,11 @@ protected:
 };
 
 // 游戏区
-struct GameZone_t
-{
-	int32 gameID;
-	int32 zoneID;
-};
+//struct GameZone_t
+//{
+//	int32 gameID;
+//	int32 zoneID;
+//};
 
 // 通用区
 struct GeneralZone_t

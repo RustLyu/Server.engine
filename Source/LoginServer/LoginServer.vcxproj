@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E796E660-3763-3E02-B7D4-9D4BD898991A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>LoginServer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\dev\Server.engine\Bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LoginServer.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LoginServer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\dev\Server.engine\Bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LoginServer.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LoginServer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\dev\Server.engine\Bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LoginServer.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LoginServer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\dev\Server.engine\Bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LoginServer.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LoginServer</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>LoginServer_PCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>LoginServer_PCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\dev\Server.engine\Bin\Debug\LIBMysql.lib;D:\dev\Server.engine\Bin\Debug\LIBSocket.lib;D:\dev\Server.engine\Bin\Debug\LibSrvcore.lib;D:\dev\Server.engine\Bin\Debug\LibProtocol.lib;..\dependence\mysql\lib\libmysql.lib;..\dependence\mysql\lib\mysqlclient_debug.lib;..\dependence\boost\lib\libboost_system-vc140-mt-gd-1_60.lib;..\dependence\boost\lib\libboost_date_time-vc140-mt-gd-1_60.lib;..\dependence\boost\lib\libboost_thread-vc140-mt-gd-1_60.lib;..\dependence\boost\lib\libboost_filesystem-vc140-mt-gd-1_60.lib;..\dependence\boost\lib\libboost_program_options-vc140-mt-gd-1_60.lib;..\dependence\boost\lib\libboost_chrono-vc140-mt-gd-1_60.lib;..\dependence\boost\lib\libboost_regex-vc140-mt-gd-1_60.lib;..\dependence\protobuf\lib\libprotobufd.lib;..\dependence\iconv\lib\iconv.lib;..\dependence\libxml2\lib\libxml2.lib;..\dependence\openssl\lib\libeay32.lib;..\dependence\openssl\lib\ssleay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/dev/Server.engine/Bin/Debug/LoginServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/dev/Server.engine/Bin/Debug/LoginServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>LoginServer_PCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>LoginServer_PCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\dev\Server.engine\Bin\Release\LIBMysql.lib;D:\dev\Server.engine\Bin\Release\LIBSocket.lib;D:\dev\Server.engine\Bin\Release\LibSrvcore.lib;D:\dev\Server.engine\Bin\Release\LibProtocol.lib;..\dependence\mysql\lib\libmysql.lib;..\dependence\mysql\lib\mysqlclient_release.lib;..\dependence\boost\lib\libboost_system-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_date_time-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_thread-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_filesystem-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_program_options-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_chrono-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_regex-vc140-mt-1_60.lib;..\dependence\protobuf\lib\libprotobufd.lib;..\dependence\iconv\lib\iconv.lib;..\dependence\libxml2\lib\libxml2.lib;..\dependence\openssl\lib\libeay32.lib;..\dependence\openssl\lib\ssleay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/dev/Server.engine/Bin/Release/LoginServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/dev/Server.engine/Bin/Release/LoginServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>LoginServer_PCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>LoginServer_PCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\dev\Server.engine\Bin\MinSizeRel\LIBMysql.lib;D:\dev\Server.engine\Bin\MinSizeRel\LIBSocket.lib;D:\dev\Server.engine\Bin\MinSizeRel\LibSrvcore.lib;D:\dev\Server.engine\Bin\MinSizeRel\LibProtocol.lib;..\dependence\mysql\lib\libmysql.lib;..\dependence\mysql\lib\mysqlclient_release.lib;..\dependence\boost\lib\libboost_system-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_date_time-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_thread-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_filesystem-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_program_options-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_chrono-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_regex-vc140-mt-1_60.lib;..\dependence\protobuf\lib\libprotobufd.lib;..\dependence\iconv\lib\iconv.lib;..\dependence\libxml2\lib\libxml2.lib;..\dependence\openssl\lib\libeay32.lib;..\dependence\openssl\lib\ssleay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/dev/Server.engine/Bin/MinSizeRel/LoginServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/dev/Server.engine/Bin/MinSizeRel/LoginServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>LoginServer_PCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>LoginServer_PCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\dev\Server.engine\Source\dependence\mysql\include;D:\dev\Server.engine\Source\dependence\boost\include;D:\dev\Server.engine\Source\dependence\protobuf\include;D:\dev\Server.engine\Source\dependence\iconv\include;D:\dev\Server.engine\Source\dependence\libxml2\include;D:\dev\Server.engine\Source\Include;D:\dev\Server.engine\Source\LibSrvcore;D:\dev\Server.engine\Source\LibProtocol;D:\dev\Server.engine\Source\LibNetMysql;D:\dev\Server.engine\Source\LibNetSocket;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\dev\Server.engine\Bin\RelWithDebInfo\LIBMysql.lib;D:\dev\Server.engine\Bin\RelWithDebInfo\LIBSocket.lib;D:\dev\Server.engine\Bin\RelWithDebInfo\LibSrvcore.lib;D:\dev\Server.engine\Bin\RelWithDebInfo\LibProtocol.lib;..\dependence\mysql\lib\libmysql.lib;..\dependence\mysql\lib\mysqlclient_release.lib;..\dependence\boost\lib\libboost_system-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_date_time-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_thread-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_filesystem-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_program_options-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_chrono-vc140-mt-1_60.lib;..\dependence\boost\lib\libboost_regex-vc140-mt-1_60.lib;..\dependence\protobuf\lib\libprotobufd.lib;..\dependence\iconv\lib\iconv.lib;..\dependence\libxml2\lib\libxml2.lib;..\dependence\openssl\lib\libeay32.lib;..\dependence\openssl\lib\ssleay32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/dev/Server.engine/Bin/RelWithDebInfo/LoginServer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/dev/Server.engine/Bin/RelWithDebInfo/LoginServer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/dev/Server.engine/Source/LoginServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/dev/Server.engine/Source -BD:/dev/Server.engine/Source --check-stamp-file D:/dev/Server.engine/Source/LoginServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/dev/Server.engine/Source/LoginServer/CMakeLists.txt;D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt;D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\dev\Server.engine\Source\LoginServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/dev/Server.engine/Source/LoginServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/dev/Server.engine/Source -BD:/dev/Server.engine/Source --check-stamp-file D:/dev/Server.engine/Source/LoginServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/dev/Server.engine/Source/LoginServer/CMakeLists.txt;D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt;D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\dev\Server.engine\Source\LoginServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/dev/Server.engine/Source/LoginServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/dev/Server.engine/Source -BD:/dev/Server.engine/Source --check-stamp-file D:/dev/Server.engine/Source/LoginServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/dev/Server.engine/Source/LoginServer/CMakeLists.txt;D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt;D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\dev\Server.engine\Source\LoginServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/dev/Server.engine/Source/LoginServer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HD:/dev/Server.engine/Source -BD:/dev/Server.engine/Source --check-stamp-file D:/dev/Server.engine/Source/LoginServer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/dev/Server.engine/Source/LoginServer/CMakeLists.txt;D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt;D:\dev\Server.engine\Source\LoginServer\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\dev\Server.engine\Source\LoginServer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\Account.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\AccountMgr.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\GameService.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\LoginAccountMgr.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\LoginServer_PCH.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\NamesManager.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\NetMsgHandler.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\ProcDpHandler.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\ProcFepHandler.h" />
+    <ClInclude Include="D:\dev\Server.engine\Source\LoginServer\ProcWorldHandler.h" />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\Account.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\AccountMgr.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\GameService.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\LoginAccountMgr.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\LoginServer_PCH.cpp" >
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LoginServer_PCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LoginServer_PCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LoginServer_PCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LoginServer_PCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\NamesManager.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\NetMsgHandler.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\ProcDpHandler.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\ProcFepHandler.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\LoginServer\ProcWorldHandler.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\dev\Server.engine\Source\ZERO_CHECK.vcxproj">
+      <Project>F8581A43-E287-3AB8-A235-562C60AD9BB8</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\dev\Server.engine\Source\LibNetMysql\LIBMysql.vcxproj">
+      <Project>0AB849D9-4341-320D-81F5-7AAA5784A742</Project>
+      <Name>LIBMysql</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\dev\Server.engine\Source\LibNetSocket\LIBSocket.vcxproj">
+      <Project>0F7971D4-8135-330F-BF13-C29C8A0F470D</Project>
+      <Name>LIBSocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\dev\Server.engine\Source\LibProtocol\LibProtocol.vcxproj">
+      <Project>7A411528-0CDF-31ED-98E2-AD9F41091898</Project>
+      <Name>LibProtocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\dev\Server.engine\Source\LibSrvcore\LibSrvcore.vcxproj">
+      <Project>EF13C187-6056-3483-8885-1A6B6CC54CBA</Project>
+      <Name>LibSrvcore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
