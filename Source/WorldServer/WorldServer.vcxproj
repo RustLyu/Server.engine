@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -57,33 +57,33 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\dev\Server.engine\Bin\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WorldServer.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WorldServer</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\dev\Server.engine\Bin\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WorldServer.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WorldServer</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\dev\Server.engine\Bin\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">WorldServer.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">WorldServer</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\dev\Server.engine\Bin\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">WorldServer.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">WorldServer</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\dev\Server.engine\Bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WorldServer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WorldServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\dev\Server.engine\Bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WorldServer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">WorldServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\dev\Server.engine\Bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">WorldServer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">WorldServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\dev\Server.engine\Bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">WorldServer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">WorldServer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /Zm500</AdditionalOptions>
@@ -104,6 +104,7 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -118,7 +119,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/dev/Server.engine/Source/WorldServer/serivces.xml $(TargetDir)
 if %errorlevel% neq 0 goto :cmEnd
@@ -150,7 +152,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>D:/dev/Server.engine/Bin/Debug/WorldServer.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/dev/Server.engine/Bin/Debug/WorldServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -174,7 +177,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -189,7 +193,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/dev/Server.engine/Source/WorldServer/serivces.xml $(TargetDir)
 if %errorlevel% neq 0 goto :cmEnd
@@ -221,7 +226,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>D:/dev/Server.engine/Bin/Release/WorldServer.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/dev/Server.engine/Bin/Release/WorldServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -245,7 +251,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -260,7 +267,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/dev/Server.engine/Source/WorldServer/serivces.xml $(TargetDir)
 if %errorlevel% neq 0 goto :cmEnd
@@ -292,7 +300,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>D:/dev/Server.engine/Bin/MinSizeRel/WorldServer.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/dev/Server.engine/Bin/MinSizeRel/WorldServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -331,7 +340,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message></Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy D:/dev/Server.engine/Source/WorldServer/serivces.xml $(TargetDir)
 if %errorlevel% neq 0 goto :cmEnd
@@ -363,7 +373,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ImportLibrary>D:/dev/Server.engine/Bin/RelWithDebInfo/WorldServer.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/dev/Server.engine/Bin/RelWithDebInfo/WorldServer.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -443,20 +454,20 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\dev\Server.engine\Source\WorldServer\WorldServer_PCH.h" />
     <ClInclude Include="D:\dev\Server.engine\Source\WorldServer\WorldUser.h" />
     <ClInclude Include="D:\dev\Server.engine\Source\WorldServer\WorldUserMgr.h" />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\GameService.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\MessageMgr.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\NetMsgHandler.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\OfflineUser.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\OfflineUserMgr.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\ProcDpHandler.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\ProcFepHandler.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\ProcLsHandler.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\ProcSsHandler.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\SceneRegMgr.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\SortsManager.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\Statistic.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\WorldChat.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\WorldServer_PCH.cpp" >
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\GameService.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\MessageMgr.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\NetMsgHandler.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\OfflineUser.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\OfflineUserMgr.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\ProcDpHandler.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\ProcFepHandler.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\ProcLsHandler.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\ProcSsHandler.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\SceneRegMgr.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\SortsManager.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\Statistic.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\WorldChat.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\WorldServer_PCH.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">WorldServer_PCH.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
@@ -466,8 +477,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">WorldServer_PCH.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\WorldUser.cpp"  />
-    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\WorldUserMgr.cpp"  />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\WorldUser.cpp" />
+    <ClCompile Include="D:\dev\Server.engine\Source\WorldServer\WorldUserMgr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\dev\Server.engine\Source\ZERO_CHECK.vcxproj">

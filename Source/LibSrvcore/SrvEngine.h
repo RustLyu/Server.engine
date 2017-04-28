@@ -28,6 +28,14 @@ class zRSA;
 class zUtility;
 class zTextCVS;
 
+#pragma warning(disable:4018)
+#pragma warning(disable:4060)
+#pragma warning(disable:4244)
+#pragma warning(disable:4267)
+#pragma warning(disable:4305)
+#pragma warning(disable:4477)
+#pragma warning(disable:4800)
+
 namespace H
 {
 	/**
@@ -200,6 +208,7 @@ bool selectByLakh(const DWORD lakh);
 
 //获取亿分之之的几率
 bool selectByOneHM(const DWORD lakh);
+
 
 
 

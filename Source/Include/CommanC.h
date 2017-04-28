@@ -6,6 +6,8 @@
 #include "NetConfig.h"
 #include "csCommon.h"
 
+#pragma warning(disable:4244)
+
 namespace C
 {
 	/*

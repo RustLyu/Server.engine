@@ -23,12 +23,12 @@
 	<!--登录服-->
 	<Server id="2001" name="loginserver" recvsrvlist="1">
 		<Serivce id="1" name="client" fun="forws" remoteid="3001" ip="127.0.0.1" port="9903"/>
-		<Serivce id="2" name="mysqld" fun="fordb" ip="127.0.0.1" port="3306" user="root" passwd="root" value="hmx_login"/>
+		<Serivce id="2" name="mysqld" fun="fordb" ip="127.0.0.1" port="3306" user="root" passwd="2142659124" value="hmx_login"/>
 	</Server>
 	<!--世界服-->
 	<Server id="3001" name="worldserver">
 		<Serivce id="1" name="server" fun="forss" ip="127.0.0.1" port="9903" maxConnects="10"/>
-		<Serivce id="2" name="mysqld" ip="127.0.0.1" port="3306" user="root" passwd="root" value="hmx_data"/>
+		<Serivce id="2" name="mysqld" ip="127.0.0.1" port="3306" user="root" passwd="2142659124" value="hmx_data"/>
 	</Server>
 	<!--场景服-->
 	<Server id="4001" name="sceneserver" recvsrvlist="1">
@@ -41,6 +41,6 @@
 	<Server id="5001" name="dbserver" broadcastlist="1">
 		<Serivce id="1" name="client" fun="forws" remoteid="3001" ip="127.0.0.1" port="9903"/>
 		<Serivce id="2" name="server" fun="forss" ip="127.0.0.1" port="9905" maxConnects="10"/>
-		<Serivce id="3" name="mysqld" fun="fordb" ip="127.0.0.1" port="3306" user="root" passwd="root" value="hmx_data"/>
+		<Serivce id="3" name="mysqld" fun="fordb" ip="127.0.0.1" port="3306" user="root" passwd="2142659124" value="hmx_data"/>
 	</Server>
 </Serivces>
