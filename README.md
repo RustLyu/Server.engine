@@ -1,4 +1,4 @@
-Welcome to the HMX-Server wiki!
+Welcome to the HMX-Server !
 # HMX-Server
 HMX-Server分步式服务器框架，主要分为网关、登录、世界、场景、数据服务器，适用于大中小型项目
 
